@@ -1,0 +1,11 @@
+<button (click)="showTable = true">Show Data Table</button>
+
+    @defer (on viewport) {
+      <app-largetable [data]="tableData"></app-largetable>
+    }  @placeholder {
+      <p>Click the button to load the table.</p>
+    } @loading {
+      <p>Loading table data...</p>
+    } @error {
+      <p>Error loading table.</p>
+    }
