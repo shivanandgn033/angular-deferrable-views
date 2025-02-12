@@ -1,4 +1,4 @@
-
+### angular-deferrable-views
 Let's dive into more detailed examples of deferrable views in Angular 19, covering various scenarios and advanced use cases.
 
 #### Deferring a Large Table with Interaction Trigger
